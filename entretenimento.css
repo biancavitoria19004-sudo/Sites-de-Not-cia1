@@ -115,7 +115,7 @@ header {
     gap: 30px;
 }
 
-/* Coluna esquerda */
+/* COLUNA ESQUERDA */
 
 .categoria {
     font-size: 12px;
@@ -127,7 +127,7 @@ header {
     margin: 10px 0 20px;
 }
 
-/* Imagem + texto */
+/* IMAGEM E TEXTO */
 .destaque {
     display: flex;
     gap: 20px;
@@ -145,7 +145,6 @@ header {
     color: #757575;
 }
 
-/* Parte de baixo */
 .grupo {
     display: flex;
     gap: 20px;
@@ -173,7 +172,7 @@ header {
     color: #625c5c;
 }
 
-/* Coluna direita */
+/* COLUNA DIREITA */
 .coluna-direita {
     border-left: 1px solid #ccc;
     padding-left: 20px;
@@ -199,7 +198,7 @@ aside {
 }
 
 
-/* Cards */
+/* CARDS */
 
 .coluna-direita .card p {
     color: #000408;
