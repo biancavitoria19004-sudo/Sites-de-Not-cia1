@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site de Notícias</title>
     <link rel="stylesheet" href="./STYLE2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lemon&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Keania+One&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -36,7 +38,7 @@
 
 
     <div class="menu">
-        <img src="imagens/icone do menu.png" alt="icone do menu" width="30">
+        <img src="imagens/icone do menu.png" alt="icone do menu" width="50">
     </div>
 
 
@@ -61,15 +63,16 @@
             <section class="noticias-esquerda">
 
                 <article class="noticia-1-esquerda">
-                    <img src="imagens/oscar - notícia 1.png" alt="noticia 1 oscar" width="250%">
+                    <img src="imagens/oscar - notícia 1.png" alt="noticia 1 oscar" width="110%">
                     <img src="imagens/entrtenimento 3d.png" alt="topico">
-                    <h3>Votação que define indicados ao Oscar termina nesta sexta.</h3>
+                    <h3>Votação que define indicados
+                        ao Oscar termina nesta sexta.</h3>
                 </article>
 
 
                 <article class="noticia-2-esquerda">
                     <img src="https://tse1.explicit.bing.net/th/id/OIP.EExYxxjIHun8Hg3zad2m9QHaD4?rs=1&pid=ImgDetMain&o=7&rm=3"
-                        width="300%">
+                        width="110%">
                     <img src="imagens/saúde 11d.png" alt="saude primeira noticia">
                     <h3>Aumentam os casos de câncer
                         entre os mais jovens. Por quê?</h3>
@@ -79,69 +82,93 @@
         </div>
 
 
-        <!-- Coluna do meio-->
-        <div id="coluna-do-meio">
-            <section>
-                <article class="noticia-central">
-                    <img src="imagens/noticia central - copa.png" width="20%" alt="noticia central-copa">
-                    <img src="imagens/esporte 1mesatras.png" alt="esportes copa">
-                    <h3>Copa do Mundo de 2026 terá 48 seleções 
-                         que jogarão nos EUA, México e Canadá.
-                    </h3>
+        <!-- Coluna central-->
+        <article class="noticia-central">
 
-                </article>
-            </section>
-        </div>
+            <div class="imagem-central">
+                <img src="imagens/noticia central - copa.png" class="img-principal" alt="noticia central-copa">
 
-        <!-- Coluna direita -->
-        <div id="coluna-direita">
-            <section>
+                <!-- imagem em cima -->
+                <img src="imagens/esporte 1mesatras.png" class="img-topo" alt="esportes copa">
+            </div>
 
-                <article class="noticia-recentes">
-                    <img src="imagens/mais recente.png" width="20%" alt="topicos mais recentes">
-            </section>
+            <h3>
+                Copa do Mundo de 2026 terá 48 seleções <br>
+                que jogarão nos EUA, México e Canadá.
+            </h3>
 
-            <article class="noticia-1-direita">
-                <img src="imagens/saude.png" alt="topico saude">
-                <img src="imagens/imagem vacina.png" width="20%" alt="topico vacina">
-                <h3>Vacina contra a dengue
+        </article>
+
+
+
+        <!-- Coluna Direita -->
+        <aside class="coluna-direita">
+
+            <img src="./imagens/da semana.png" alt="noticias da semana">
+
+            <div class="card">
+                <img src="./imagens/imagem vacina.png">
+                <p>Vacina contra a dengue
                     começa a ser aplicada em
-                    três cidades do país.</h3>
-            </article>
+                    três cidades do país.</p>
+            </div>
 
+            <hr>
 
-            <article class="noticia-2-direita">
-                <img src="imagens/ENTRETENIMENTO.png" alt="topico Entretenimento">
-                <img src="https://veja.abril.com.br/wp-content/uploads/2025/07/GettyImages-2210177787.jpg?quality=70&strip=info&w=1280&h=720&crop=1"
-                    alt="topico netflix" width="20%">
-                <h3>O acordo que vai levar
+            <div class="card">
+                <img src="./imagens/netflix.png">
+                <p>O acordo que vai levar
                     estreias do cinema para
                     a Netflix.
-                </h3>
+                </p>
+            </div>
 
-                <article class="noticia-3-direita">
-                    <img src="imagens/ESPORTE.png" alt="topico esporte">
-                    <img src="imagens/esporte handebol.png" width="20%" alt="noticia handebol">
-                    <h3>É campeão! Brasil vence
-                        Argentina e levanta a
-                        taça no handebol.</h3>
-                </article>
+            <hr>
 
-                <article class="noticia-4-direita">
-                    <img src="imagens/ENTRETENIMENTO.png" alt="noticia best sellers">
-                    <img src="imagens/best sellers.png" width="20%" alt="noticia best sellers">
-                    <h3>Últimas semanas do ano
-                        consolidam best-sellers
-                        de 2025.</h3>
-                </article>
+            <div class="card">
+                <img src="./imagens/esporte handebol.png">
+                <p>É campeão! Brasil vence
+                    Argentina e levanta a
+                    taça no handebol.</p>
+            </div>
+
+            <hr>
+
+            <div class="card">
+                <img src="./imagens/best sellers.png">
+                <p>Últimas semanas do ano
+                    consolidam best-sellers
+                    de 2025.</p>
+            </div>
+
+            <hr>
+
+            <div class="card">
+                <img src="./imagens/morro-dos-ventos.jpg">
+                <p>Pré-venda de "O Morro dos Ventos Uivantes" está aberta; saiba como comprar ingressos</p>
+            </div>
+
+            <hr>
+            </div>
+
+            <div class="card">
+                <img src="imagens/noticia-5-direita.avif">
+                <p>Anvisa emite alerta para uso de canetas emagrecedoras sem acompanhamento médico</p>
+            </div>
+
+            <hr>
+
+        </aside>
+
+
         </div>
     </main>
 
     <footer>
         <address>
-            <a href="mailto@gmail.com"> últimas novidades @Copyrught Noticias Comunicação e Participação
-                princípios editoriais|política de privacidade|anuncie conosco
+            <a href="mailto:noticias@gmail.com"> ©Desenvolvido por Bianca Vitória
             </a>
+            <p>noticias</p>
         </address>
     </footer>
 
@@ -150,4 +177,3 @@
 </body>
 
 </html>
-
